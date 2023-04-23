@@ -21,24 +21,31 @@ be divergent features and worthy benefits.
 
 The Scratch Foundation [Life Long Kindergarten](https://github.com/LLK) at MIT Media Lab seem to be two github entities for the same group.
 
-* Scratch Foundation repositories appear at least partly mirrored under [LLK](https://github.com/LLK) and 
+Scratch Foundation repositories appear at least partly mirrored under [LLK](https://github.com/LLK) and 
 [scratchfoundation](https://github.com/scratchfoundation):
-  * [scratch-blocks](https://github.com/scratchfoundation/scratch-blocks) Scratch Blocks is a library for building 
-   creative computing interfaces. 
-  * [scratch-vm](https://github.com/scratchfoundation/scratch-vm) Virtual Machine used to represent, run, and maintain the state of programs for Scratch 3.0
-  * [scratch-render](https://github.com/scratchfoundation/scratch-render) WebGL-based rendering engine for Scratch 3.0
-  * [scratch-gui](https://github.com/LLK/scratch-gui) Graphical User Interface for creating and running Scratch 3.0 projects.
-  * Several other component projects: Scratch Paint editor etc.
-* [getsb3](https://github.com/cdchushig/getsb3) API for downloading scratch projects in sb3 format. JavaScript, Docker.
-* [scratchblocks](https://github.com/scratchblocks/scratchblocks) renders a faithful view of a scratch program's block 
-shapes. Seems to be view only, not edit.
-* [sb-edit](https://github.com/leopard-js/sb-edit) Some limited ability to download and modify scratch project files and assets.
+
+* [scratch-blocks](https://github.com/scratchfoundation/scratch-blocks) Scratch Blocks is a library for building 
+ creative computing interfaces. 
+* [scratch-vm](https://github.com/scratchfoundation/scratch-vm) Virtual Machine used to represent, run, and maintain the state of programs for Scratch 3.0
+* [scratch-render](https://github.com/scratchfoundation/scratch-render) WebGL-based rendering engine for Scratch 3.0
+* [scratch-gui](https://github.com/LLK/scratch-gui) Graphical User Interface for creating and running Scratch 3.0 projects.
+* Several other component projects: Scratch Paint editor etc.
+
+In some cases there are sometimes thousands of forks of these repositories.
 
 ### TurboWarp
 
 Modified version of Scratch 3 with faster performance etc.
 
 [TurboWarp](https://github.com/TurboWarp)
+
+### Misc
+
+* [getsb3](https://github.com/cdchushig/getsb3) API for downloading scratch projects in sb3 format. JavaScript, Docker.
+* [scratchblocks](https://github.com/scratchblocks/scratchblocks) renders a faithful view of a scratch program's block
+  shapes. Seems to be view only, not edit.
+* [sb-edit](https://github.com/leopard-js/sb-edit) Some limited ability to download and modify scratch project files and assets.
+
 
 ### Dr Scratch & Hairball 
 
