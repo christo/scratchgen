@@ -21,9 +21,8 @@ be divergent features and worthy benefits.
 
 ### Scratch Foundation and LLK
 
-The Scratch Foundation [Life Long Kindergarten](https://github.com/LLK) at MIT Media Lab seem to be two github entities for the same group.
-
-Scratch Foundation repositories appear at least partly mirrored under [LLK](https://github.com/LLK) and 
+The Scratch Foundation [Life-Long Kindergarten](https://github.com/LLK) at MIT Media Lab seem to be two github 
+entities for the same group and repositories appear at least partly mirrored under [LLK](https://github.com/LLK) and 
 [scratchfoundation](https://github.com/scratchfoundation):
 
 * [scratch-blocks](https://github.com/scratchfoundation/scratch-blocks) Scratch Blocks is a library for building 
