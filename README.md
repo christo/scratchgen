@@ -8,9 +8,9 @@ Project stage: __pre-larval__;
 
 Scratch project files, `.sb3` files, are a zip file with assets and a json file.
 
-The official Scratch API only provides project metadata, and does not provide a way to obtain the scratch project files
-themselves, nor to modify those project files programmatically. However, community members have created many projects 
-to fill that void.
+The official Scratch REST API only provides project metadata, and does not provide a way to obtain the scratch project 
+files themselves, nor to modify those project files programmatically. However, community members have created many 
+projects to fill that void.
 
 Scratch 3 is built with Blockly
 
