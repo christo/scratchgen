@@ -2,6 +2,8 @@
 
 Project to play with generating scratch project code using available APIs.
 
+Project stage: __pre-larval__;
+
 ## General Info
 
 Scratch project files, `.sb3` files, are a zip file with assets and a json file.
