@@ -4,6 +4,8 @@ Project to research asset and code generation for [Scratch](https://scratch.mit.
 
 Project stage: _pre-larval_
 
+![Scratch Logo](img/Scratch-logo-sm.png)
+
 There are several open source projects aimed at converting [Scratch](https://scratch.mit.edu/) projects to other forms 
 (like JavaScript) and to read the scratch project file for analysis or re-rendering the blocks in the scratch forums.
 Also, there are a handful that focus on the other direction: building up a scratch project from another 
@@ -12,16 +14,12 @@ representation, such as Tosh, a text version of the scratch block language.
 As of version 3, the Scratch project format is well published, understood and the source code for working with it is 
 open source. The Scratch code itself may be the best API to generate code and other project assets.
 
-
-
 ## General Info
 
 Scratch project files, `.sb3` files, are a zip file with assets and a json file.
 
 The official [Scratch REST API](https://en.scratch-wiki.info/wiki/Scratch_API) provides access to project metadata, not 
 the Scratch project files themselves. Community members have created many projects to fill that void.
-
-![Scratch Logo](img/Scratch-logo-sm.png)
 
 The json elements closely represent the blocks with interconnections such as parent-child relationships and 
 next-block relationships referenced via arbitrary, generated GUIDs. 
