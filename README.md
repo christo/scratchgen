@@ -1,18 +1,36 @@
 # ScratchGen
 
-Project to play with generating scratch project code using available APIs.
+Project to research asset and code generation for [Scratch](https://scratch.mit.edu/) projects using available APIs.
 
-Project stage: __pre-larval__;
+Project stage: _pre-larval_
+
+There are several open source projects aimed at converting [Scratch](https://scratch.mit.edu/) projects to other forms 
+(like JavaScript) and to read the scratch project file for analysis or re-rendering the blocks in the scratch forums.
+Also, there are a handful that focus on the other direction: building up a scratch project from another 
+representation, such as Tosh, a text version of the scratch block language. 
+
+As of version 3, the Scratch project format is well published, understood and the source code for working with it is 
+open source. The Scratch code itself may be the best API to generate code and other project assets.
+
+
 
 ## General Info
 
 Scratch project files, `.sb3` files, are a zip file with assets and a json file.
 
-The official Scratch REST API only provides project metadata, and does not provide a way to obtain the scratch project 
-files themselves, nor to modify those project files programmatically. However, community members have created many 
-projects to fill that void.
+The official [Scratch REST API](https://en.scratch-wiki.info/wiki/Scratch_API) provides access to project metadata, not 
+the Scratch project files themselves. Community members have created many projects to fill that void.
 
-Scratch 3 is built with Blockly
+![Scratch Logo](img/Scratch-logo-sm.png)
+
+The json elements closely represent the blocks with interconnections such as parent-child relationships and 
+next-block relationships referenced via arbitrary, generated GUIDs. 
+
+Scratch 3 is built in JavaScript using Blockly for the GUI. Earlier versions were built on Flash (Scratch 2.0) or 
+Smalltalk (Scratch 1.4). Therefore, libraries that read or write earlier version scratch projects are not suitable 
+for generating Scratch 3 projects directly. The Scratch 3 codebase has carefully handled backward compatibility such 
+that projects written for previous versions of Scratch can be loaded but only if they are freshsly saved with 
+Scratch 3 will the project files be available in the 3.0 format.
 
 ## Scratch Foundation and LLK
 
