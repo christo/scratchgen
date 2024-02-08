@@ -122,3 +122,6 @@ text modes for Scratch implemented in JS.
   written in JavaScript.
 * [MegaApuTurkUltra/ScratchTools](https://github.com/MegaApuTurkUltra/ScratchTools) follower stats and audio 
   visualisation for Scratch 2 written in Java.
+* https://github.com/RexScratch/PenTextEngineInjector
+* https://github.com/RexScratch/PenFontEngineInjector
+* https://github.com/RexScratch/PFEDataGenerator
