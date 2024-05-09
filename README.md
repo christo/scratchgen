@@ -112,8 +112,8 @@ developer acknowledges TurboWarp is better:
 * [forkphorus](https://github.com/forkphorus/forkphorus)
 * [phosphorus](https://github.com/trumank/phosphorus)
 * [bismuth](https://github.com/adroitwhiz/bismuth)
-* Example project used to create app store mobile games by converting phosphorus-generated js to iOS
-  and Android using Adobe PhoneGap. [Roy the RPG](https://github.com/nitrodragon/royroyroyroy)
+* Example project used to create an app store mobile game by converting phosphorus-generated js to
+  iOS and Android using Adobe PhoneGap. [Roy the RPG](https://github.com/nitrodragon/royroyroyroy)
 
 See also this HTML5 block editor implementation using phosphorus and blockly:
 [Argon](https://github.com/jgordon510/Argon)
