@@ -29,8 +29,7 @@ project metadata, not the Scratch project files themselves. Community members ha
 projects to fill that void.
 
 The json elements closely represent the blocks with interconnections such as parent-child
-relationships and
-next-block relationships referenced via arbitrary, generated GUIDs.
+relationships and next-block relationships referenced via arbitrary, generated GUIDs.
 
 Scratch 3 is built in JavaScript using Blockly for the GUI. Earlier versions were built on Flash
 (Scratch 2.0) or Smalltalk (Scratch 1.4). Therefore, libraries that read or write earlier version
