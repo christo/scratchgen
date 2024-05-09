@@ -42,7 +42,7 @@ available in the 3.0 format.
 ## TurboWarp
 
 Better version of Scratch 3 with faster performance etc. Not official but it seems like the best
-thing to build on.
+thing to build on. Developer docs are extensive. Has TypeScript types.
 
 [TurboWarp](https://github.com/TurboWarp)
 
