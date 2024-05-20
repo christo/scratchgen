@@ -8,6 +8,8 @@ Project stage: _pre-larval_
 The TurboWarp fork of the official Scratch looks like a good way to build scratch projects from
 JavaScript programmatically
 
+[TODO](todo.md)
+
 ![Scratch Logo](img/Scratch-logo-sm.png)
 
 There are several open source projects aimed at converting [Scratch](https://scratch.mit.edu/)
